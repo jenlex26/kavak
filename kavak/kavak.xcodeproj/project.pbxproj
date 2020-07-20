@@ -3,10 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77C90FB515C32D38D86E2CF8 /* Pods_kavak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37900924621D562891AF1BB /* Pods_kavak.framework */; };
+		7DEAB4484CFEF63B0BBD3BBD /* Pods_kavakTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B5EF3264986CCFF7DB5FE7 /* Pods_kavakTests.framework */; };
+		926B60B624C40CC000596CD0 /* objectService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B60B524C40CC000596CD0 /* objectService.swift */; };
+		926B60B824C40D2400596CD0 /* service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B60B724C40D2400596CD0 /* service.swift */; };
+		926B60BA24C40D4D00596CD0 /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B60B924C40D4D00596CD0 /* General.swift */; };
+		926B60BE24C40DB200596CD0 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B60BD24C40DB200596CD0 /* ProfileCell.swift */; };
+		926B60C024C40E0900596CD0 /* InformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B60BF24C40E0900596CD0 /* InformationCell.swift */; };
+		926B60C224C40E7D00596CD0 /* ProfessionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B60C124C40E7D00596CD0 /* ProfessionsCell.swift */; };
+		926B60C424C40F0000596CD0 /* ProfessionsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B60C324C40F0000596CD0 /* ProfessionsItem.swift */; };
+		926B60C624C40F9800596CD0 /* ItemGnome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B60C524C40F9800596CD0 /* ItemGnome.swift */; };
+		926B60C824C4102800596CD0 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B60C724C4102800596CD0 /* ProfileVC.swift */; };
 		92FBD16F24C271560093EC6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FBD16E24C271560093EC6B /* AppDelegate.swift */; };
 		92FBD17124C271560093EC6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FBD17024C271560093EC6B /* ViewController.swift */; };
 		92FBD17424C271560093EC6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FBD17224C271560093EC6B /* Main.storyboard */; };
@@ -14,6 +25,7 @@
 		92FBD17924C271580093EC6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FBD17724C271580093EC6B /* LaunchScreen.storyboard */; };
 		92FBD18424C271590093EC6B /* kavakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FBD18324C271590093EC6B /* kavakTests.swift */; };
 		92FBD18F24C271590093EC6B /* kavakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FBD18E24C271590093EC6B /* kavakUITests.swift */; };
+		95AAA6FAE6449B6A902F0D74 /* Pods_kavak_kavakUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8451F478E9D75AC2B9AD81E4 /* Pods_kavak_kavakUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2ED0200F844ECBCA63F12A00 /* Pods-kavak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kavak.release.xcconfig"; path = "Target Support Files/Pods-kavak/Pods-kavak.release.xcconfig"; sourceTree = "<group>"; };
+		4204DE418F4E2D343E353983 /* Pods-kavak-kavakUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kavak-kavakUITests.debug.xcconfig"; path = "Target Support Files/Pods-kavak-kavakUITests/Pods-kavak-kavakUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		44B5EF3264986CCFF7DB5FE7 /* Pods_kavakTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kavakTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8451F478E9D75AC2B9AD81E4 /* Pods_kavak_kavakUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kavak_kavakUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		926B60B524C40CC000596CD0 /* objectService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = objectService.swift; sourceTree = "<group>"; };
+		926B60B724C40D2400596CD0 /* service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = service.swift; sourceTree = "<group>"; };
+		926B60B924C40D4D00596CD0 /* General.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
+		926B60BD24C40DB200596CD0 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		926B60BF24C40E0900596CD0 /* InformationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationCell.swift; sourceTree = "<group>"; };
+		926B60C124C40E7D00596CD0 /* ProfessionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionsCell.swift; sourceTree = "<group>"; };
+		926B60C324C40F0000596CD0 /* ProfessionsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionsItem.swift; sourceTree = "<group>"; };
+		926B60C524C40F9800596CD0 /* ItemGnome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemGnome.swift; sourceTree = "<group>"; };
+		926B60C724C4102800596CD0 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		92FBD16B24C271560093EC6B /* kavak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kavak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FBD16E24C271560093EC6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92FBD17024C271560093EC6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +72,11 @@
 		92FBD18A24C271590093EC6B /* kavakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kavakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FBD18E24C271590093EC6B /* kavakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kavakUITests.swift; sourceTree = "<group>"; };
 		92FBD19024C271590093EC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A073243928866264DE5884AF /* Pods-kavak-kavakUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kavak-kavakUITests.release.xcconfig"; path = "Target Support Files/Pods-kavak-kavakUITests/Pods-kavak-kavakUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B37900924621D562891AF1BB /* Pods_kavak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kavak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71043486CC79612AB2EE6F0 /* Pods-kavak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kavak.debug.xcconfig"; path = "Target Support Files/Pods-kavak/Pods-kavak.debug.xcconfig"; sourceTree = "<group>"; };
+		BACE47296FFEB1CC95E698C4 /* Pods-kavakTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kavakTests.release.xcconfig"; path = "Target Support Files/Pods-kavakTests/Pods-kavakTests.release.xcconfig"; sourceTree = "<group>"; };
+		D35BBC3E1C45183107704E74 /* Pods-kavakTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kavakTests.debug.xcconfig"; path = "Target Support Files/Pods-kavakTests/Pods-kavakTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C90FB515C32D38D86E2CF8 /* Pods_kavak.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DEAB4484CFEF63B0BBD3BBD /* Pods_kavakTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +100,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95AAA6FAE6449B6A902F0D74 /* Pods_kavak_kavakUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72172AB3D95072F47F7769F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B37900924621D562891AF1BB /* Pods_kavak.framework */,
+				8451F478E9D75AC2B9AD81E4 /* Pods_kavak_kavakUITests.framework */,
+				44B5EF3264986CCFF7DB5FE7 /* Pods_kavakTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		926B60BB24C40D8900596CD0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				926B60BC24C40D9D00596CD0 /* Profile */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		926B60BC24C40D9D00596CD0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				926B60BD24C40DB200596CD0 /* ProfileCell.swift */,
+				926B60BF24C40E0900596CD0 /* InformationCell.swift */,
+				926B60C124C40E7D00596CD0 /* ProfessionsCell.swift */,
+				926B60C324C40F0000596CD0 /* ProfessionsItem.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		92FBD16224C271560093EC6B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +143,8 @@
 				92FBD18224C271590093EC6B /* kavakTests */,
 				92FBD18D24C271590093EC6B /* kavakUITests */,
 				92FBD16C24C271560093EC6B /* Products */,
+				FCEF44E3CE5F78D1CC1E811F /* Pods */,
+				72172AB3D95072F47F7769F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +161,18 @@
 		92FBD16D24C271560093EC6B /* kavak */ = {
 			isa = PBXGroup;
 			children = (
+				926B60BB24C40D8900596CD0 /* Cell */,
 				92FBD16E24C271560093EC6B /* AppDelegate.swift */,
 				92FBD17024C271560093EC6B /* ViewController.swift */,
 				92FBD17224C271560093EC6B /* Main.storyboard */,
 				92FBD17524C271580093EC6B /* Assets.xcassets */,
 				92FBD17724C271580093EC6B /* LaunchScreen.storyboard */,
 				92FBD17A24C271580093EC6B /* Info.plist */,
+				926B60B524C40CC000596CD0 /* objectService.swift */,
+				926B60B724C40D2400596CD0 /* service.swift */,
+				926B60B924C40D4D00596CD0 /* General.swift */,
+				926B60C524C40F9800596CD0 /* ItemGnome.swift */,
+				926B60C724C4102800596CD0 /* ProfileVC.swift */,
 			);
 			path = kavak;
 			sourceTree = "<group>";
@@ -125,6 +195,19 @@
 			path = kavakUITests;
 			sourceTree = "<group>";
 		};
+		FCEF44E3CE5F78D1CC1E811F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B71043486CC79612AB2EE6F0 /* Pods-kavak.debug.xcconfig */,
+				2ED0200F844ECBCA63F12A00 /* Pods-kavak.release.xcconfig */,
+				4204DE418F4E2D343E353983 /* Pods-kavak-kavakUITests.debug.xcconfig */,
+				A073243928866264DE5884AF /* Pods-kavak-kavakUITests.release.xcconfig */,
+				D35BBC3E1C45183107704E74 /* Pods-kavakTests.debug.xcconfig */,
+				BACE47296FFEB1CC95E698C4 /* Pods-kavakTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92FBD19324C271590093EC6B /* Build configuration list for PBXNativeTarget "kavak" */;
 			buildPhases = (
+				EA9BCD2659A19479D2FEF79B /* [CP] Check Pods Manifest.lock */,
 				92FBD16724C271560093EC6B /* Sources */,
 				92FBD16824C271560093EC6B /* Frameworks */,
 				92FBD16924C271560093EC6B /* Resources */,
+				34F65D9616F2ADFFD2200020 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92FBD19624C271590093EC6B /* Build configuration list for PBXNativeTarget "kavakTests" */;
 			buildPhases = (
+				2A5E88A2F9E4E7CD4CA58552 /* [CP] Check Pods Manifest.lock */,
 				92FBD17B24C271590093EC6B /* Sources */,
 				92FBD17C24C271590093EC6B /* Frameworks */,
 				92FBD17D24C271590093EC6B /* Resources */,
@@ -167,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92FBD19924C271590093EC6B /* Build configuration list for PBXNativeTarget "kavakUITests" */;
 			buildPhases = (
+				A9E561AD8E56237828689441 /* [CP] Check Pods Manifest.lock */,
 				92FBD18624C271590093EC6B /* Sources */,
 				92FBD18724C271590093EC6B /* Frameworks */,
 				92FBD18824C271590093EC6B /* Resources */,
+				B252AEC0B2E2D80493308F5A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +339,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A5E88A2F9E4E7CD4CA58552 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kavakTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34F65D9616F2ADFFD2200020 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kavak/Pods-kavak-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kavak/Pods-kavak-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kavak/Pods-kavak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9E561AD8E56237828689441 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kavak-kavakUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B252AEC0B2E2D80493308F5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kavak-kavakUITests/Pods-kavak-kavakUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kavak-kavakUITests/Pods-kavak-kavakUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kavak-kavakUITests/Pods-kavak-kavakUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA9BCD2659A19479D2FEF79B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kavak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92FBD16724C271560093EC6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				92FBD17124C271560093EC6B /* ViewController.swift in Sources */,
+				926B60B824C40D2400596CD0 /* service.swift in Sources */,
+				926B60C024C40E0900596CD0 /* InformationCell.swift in Sources */,
+				926B60C224C40E7D00596CD0 /* ProfessionsCell.swift in Sources */,
 				92FBD16F24C271560093EC6B /* AppDelegate.swift in Sources */,
+				926B60BE24C40DB200596CD0 /* ProfileCell.swift in Sources */,
+				926B60B624C40CC000596CD0 /* objectService.swift in Sources */,
+				926B60C424C40F0000596CD0 /* ProfessionsItem.swift in Sources */,
+				926B60BA24C40D4D00596CD0 /* General.swift in Sources */,
+				926B60C824C4102800596CD0 /* ProfileVC.swift in Sources */,
+				926B60C624C40F9800596CD0 /* ItemGnome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +630,7 @@
 		};
 		92FBD19424C271590093EC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B71043486CC79612AB2EE6F0 /* Pods-kavak.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +649,7 @@
 		};
 		92FBD19524C271590093EC6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED0200F844ECBCA63F12A00 /* Pods-kavak.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +668,7 @@
 		};
 		92FBD19724C271590093EC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D35BBC3E1C45183107704E74 /* Pods-kavakTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +689,7 @@
 		};
 		92FBD19824C271590093EC6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BACE47296FFEB1CC95E698C4 /* Pods-kavakTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +710,7 @@
 		};
 		92FBD19A24C271590093EC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4204DE418F4E2D343E353983 /* Pods-kavak-kavakUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +730,7 @@
 		};
 		92FBD19B24C271590093EC6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A073243928866264DE5884AF /* Pods-kavak-kavakUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
